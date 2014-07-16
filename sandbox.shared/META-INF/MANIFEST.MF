@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: sandbox.shared
+Bundle-SymbolicName: sandbox.shared;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sandbox.shared.Activator
+Export-Package: sandbox.shared,
+ sandbox.shared.services,
+ sandbox.shared.services.common.text,
+ sandbox.shared.services.field,
+ sandbox.shared.services.template.formfield
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.scout.rt.shared;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
